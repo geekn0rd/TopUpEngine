@@ -29,3 +29,6 @@ RUN --mount=type=cache,target=/root/.cache \
 
 # copy project
 COPY . .
+
+# run entrypoint.sh
+ENTRYPOINT ["/app/entrypoint.sh"]
