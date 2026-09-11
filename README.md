@@ -24,7 +24,7 @@ A robust B2B credit and recharge system with secure top-up requests, atomic tran
 ---
 
 ## 📦 Tech Stack
-- **Backend**: Django, Django REST Framework
+- **Backend**: Django REST Framework
 - **Database**: PostgreSQL (for row-level locking)
 - **Testing**: Django Test Framework, threading for concurrency tests
 
